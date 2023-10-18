@@ -25,7 +25,7 @@ Pada challange chapter empat ini, saya akan mengintegrasikan Express.js dan Pris
 
 ## Entity Relationship Diagram
 
-<img src="images/erd_challange04.png"  height="500">
+<img src="images/erd_challange04.png" >
 
 ## Relations
 
