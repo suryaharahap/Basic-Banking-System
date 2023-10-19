@@ -3,20 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic Banking System</title>
+    <link rel="icon" href="/image/binar-ic.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Basic Banking System - Challange02</title>
   </head>
   <body>
-    <h1>Basic Banking System</h1>
+    <div class="container">
+      <h1>Basic Banking System</h1>
+      <h1>Binar Academy</h1>
+      <h3 id="date"></h3>
 
-    <p>Current Balance: $<span id="saldo">0</span></p>
-    <input type="number" id="amount" placeholder="Amount" />
-    <button id="tmbsaldobtn">Deposit</button>
-    <button id="kurangisaldobtn">Withdraw</button>
+      <div class="account">
+        <h2>Account Surya Harahap</h2>
+        <p>Balance: <span id="saldo">Rp. 0</span></p>
+        <button onclick="bankAccount.deposit()">(+) Deposit</button>
+        <button onclick="bankAccount.withdraw()">(-) Withdraw</button>
+        <div id="transaction-history">
+          <h3>Transaction History</h3>
+          <ul id="transactions"></ul>
+        </div>
+      </div>
+    </div>
 
-    <h2>Transaction History</h2>
-    <ul id="transactions"></ul>
-
-    <script src="javascript/bank_account.js"></script>
     <script src="javascript/banking_system.js"></script>
   </body>
 </html>
