@@ -32,4 +32,4 @@ Sebuah bank ingin membuat sistem untuk melacak informasi nasabah, akun, dan tran
 
 ## Gambar ERD dari perintah create_and_insert.sql
 
-<img src="images/db_binaracademy.png"  height="500">
+<img src="images/erd_challange03.png">
