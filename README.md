@@ -26,4 +26,4 @@ Dalam studi kasus ini, saya akan membuat sebuah **Basic Banking System** sederha
 
 ## Flowchart
 
-<img src="images/erd_challange04.png" >
+<img src="image/flowchart-challange02-surya.png" >
